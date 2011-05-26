@@ -1,6 +1,5 @@
 <?php
-  echo "Lets write php!"
+  echo "Lets write php!";
 
-  echo 100 * 100
-
+  echo 100 * 100;
 ?>
