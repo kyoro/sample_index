@@ -7,3 +7,5 @@ use FindBin::libs;
 
 #my $hello = MyApp::Hello->new();
 #$hello->run();
+
+print "Content-type: text/html\n\n";
