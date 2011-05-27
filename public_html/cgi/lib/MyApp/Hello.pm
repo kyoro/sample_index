@@ -8,6 +8,7 @@ sub setup {
     $self->start_mode('hello');
     $self->run_modes(
         'hello' => 'hello',
+        'edit' => 'edit',
     );
 }
 
@@ -15,6 +16,12 @@ sub hello {
     my $self = shift;
     my $html = $self->load_tmpl('index.tmpl');
     return $html->output;
-    return "aaaa";
 }
+
+sub edit {
+    my $self = shift;
+    my $html = $self->load_tmpl('edit.tmpl');
+    return $html->output;
+}
+
 1;
