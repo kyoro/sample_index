@@ -2,6 +2,7 @@
 use strict;
 use warnings;
 use FindBin::libs;
+use CGI::Application::Dispatch;
 use MyApp::Hello;
 
 #my $hello = MyApp::Hello->new();
