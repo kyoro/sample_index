@@ -3,8 +3,8 @@ use strict;
 use warnings;
 use FindBin::libs;
 use MyApp::Hello;
-#my $hello = MyApp::Hello->new();
-#$hello->run();
+my $hello = MyApp::Hello->new();
+$hello->run();
 
 print "Content-type: text/html\n\n";
 print "aaa";
