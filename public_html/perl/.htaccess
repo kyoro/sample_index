@@ -1,1 +1,1 @@
-Setenv PERL5LIB ./lib
+Setenv PERL5LIB lib
