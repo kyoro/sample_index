@@ -8,5 +8,5 @@ use MyApp::Hello;
 while (my $q = CGI::Fast->new()){
     my $app = MyApp::Hello->new(QUERY => $q);
     $app->run();
-});
+};
 
