@@ -4,7 +4,7 @@ use base 'CGI::Application';
 
 sub setup {
     my $self = shift;
-    $self->tmpl_path('/home/miko/cgi/tmpl');
+    $self->tmpl_path('/home/miko/public_html/cgi/tmpl');
     $self->start_mode('hello');
     $self->run_modes(
         'hello' => 'hello',
