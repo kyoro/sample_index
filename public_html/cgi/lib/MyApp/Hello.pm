@@ -12,7 +12,8 @@ sub setup {
 }
 
 sub hello {
-    my $html = $self->load_tmpl('index.tmpl');
-    return $html->output;
+#my $html = $self->load_tmpl('index.tmpl');
+#    return $html->output;
+    return "aaaa";
 }
 1;
